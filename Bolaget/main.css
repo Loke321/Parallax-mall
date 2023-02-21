@@ -1,8 +1,10 @@
 body{
     margin: 0;
 }
-nav ul.navA{
+ul {
     list-style: none;
+}
+nav ul.navA {
     margin-top: 0px;
     margin-left: 800px;
     margin-right: 100px;
@@ -12,10 +14,10 @@ nav ul.navA{
     padding: 12px;
 }
 nav ul li a img {
-    height: 50px;
+    height: 60px;
 }
 nav ul li.nav1{
-    margin-top: 10;
+    margin-top: 20px;
 }
 nav {
 

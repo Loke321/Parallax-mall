@@ -1,0 +1,29 @@
+div.parent {
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+}
+div.child {
+    animation: left-to-right 1s ease-in forwards infinite;
+    background-color: red;
+    height: 50%;
+    width: 50%;
+}
+
+.parent:hover .child {
+   
+}
+@keyframes left-to-right {
+    0%{
+        transform: translateX(cubic-bezier(0.62,-0.15, 0.24, 1.32));
+    }
+    33%{
+        transform: translateY(100%)
+    }
+    66%{
+        transform: translateX(100%) translateY(100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}

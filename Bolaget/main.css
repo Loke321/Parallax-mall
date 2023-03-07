@@ -13,27 +13,47 @@ nav ul.navA {
     justify-content: space-between;
     padding: 12px;
 }
-nav ul li a img {
-    height: 60px;
-}
-nav ul li.nav1{
-    margin-top: 20px;
-}
-nav {
-
+nav.navigateA {
+    height: 50px;
     background-color: gainsboro;
+}
+nav.navigateB {
+    height: 50px;
+    background-color: forestgreen;
 }
 nav ul li a {
     text-decoration: none;
     color: black;
 }
-header {
+nav.navigateA img {
+    height: 110px;
+}
+header button {
+    background-color: gray;
+    border-color: black;
+    border-left-style: none;
+    border-width: 1.5px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    color: white;
+    padding: 10px;
 
 }
-header div img {
-    height: 100px;
-}
 header form {
-    border-style: groove;
-    border-color: red;
+    border-style:ridge;
+    border-right-style:none;
+    border-color: black;
+    border-width: 1.5px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    padding: 10px;
+    width: 200px;
+}
+header div.sök {
+    margin-top: 35px;
+    height: 40px;
+}
+header {
+    margin-left: 100px;
+    margin-right: 100px;
 }
